@@ -1,0 +1,41 @@
+https://gist.github.com/aquelito/8596717
+aller dans le dossier ls/ cd
+pwd => adresse dossier
+ls -la: donne ce qu’il y a dans dossier avec type
+git add nom_fichier
+git commit -m “nom"
+git push origin master
+git log: affiche les différents commits
+git help config
+git help push
+git help pull
+git help branch
+git branch -a
+
+gist copier/coller des morceaux de code
+
+git clone + adresse http
+
+git status: statut github
+
+
+git branch => connaitre le nom de la branche sur laquelle on se trouve
+git init => création d'un repo
+Pour créer une nouvelle branche: git branch nom_de_la_branche
+par défaut se positionne sur la branche Master mais une nouvelle branche a été créée
+pour se positionner sur la nouvelle branche: git checkout nom_de_la_branche
+lorsqu'on fait git branch par la suite l'étoile doit se trouve devant nom_de_la_branche
+pour revenir sur master: git checkout master
+
+créer fichier et repo git:
+mkdir mon_projet => make directory (création d'un dossier en local)
+se positionner sur le dossier créé
+puis faire git init pour mettre le dossier sur github
+touch nom_du_fichier => permet de créer un fichier
+
+rvm => ruby version manager
+git remote -v => adresse ou on push le fichier
+
+Ouvir application/fichier: 
+open -a "Application" => ouvrir une application
+open nom_du_fichier => ouvrir fichier
